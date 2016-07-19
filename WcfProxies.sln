@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfProxies.WindowsHost", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfProxies.Proxies", "WcfProxies.Proxies\WcfProxies.Proxies.csproj", "{91CB8B73-62EC-4902-84EF-AC037D57577A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfProxies.Clients", "WcfProxies.Clients\WcfProxies.Clients.csproj", "{5125C111-6DE5-4D36-88D2-B19C2EBFB7C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{91CB8B73-62EC-4902-84EF-AC037D57577A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91CB8B73-62EC-4902-84EF-AC037D57577A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91CB8B73-62EC-4902-84EF-AC037D57577A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5125C111-6DE5-4D36-88D2-B19C2EBFB7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5125C111-6DE5-4D36-88D2-B19C2EBFB7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5125C111-6DE5-4D36-88D2-B19C2EBFB7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5125C111-6DE5-4D36-88D2-B19C2EBFB7C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

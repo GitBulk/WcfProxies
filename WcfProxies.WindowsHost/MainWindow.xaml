@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="btnStartService" Content="Button" HorizontalAlignment="Left" Margin="255,107,0,0" VerticalAlignment="Top" Width="75" Click="btnStartService_Click"/>
-        <Button x:Name="btnStopService" IsEnabled="False" Content="Button" HorizontalAlignment="Left" Margin="255,168,0,0" VerticalAlignment="Top" Width="75" Click="btnStopService_Click"/>
-        <Label x:Name="lblStatus" Content="Label" HorizontalAlignment="Left" Margin="255,219,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnStartService" Content="Start Service" HorizontalAlignment="Left" Margin="255,107,0,0" VerticalAlignment="Top" Width="75" Click="btnStartService_Click"/>
+        <Button x:Name="btnStopService" IsEnabled="False" Content="Stop Service" HorizontalAlignment="Left" Margin="255,168,0,0" VerticalAlignment="Top" Width="75" Click="btnStopService_Click"/>
+        <Label x:Name="lblStatus" Content="" HorizontalAlignment="Left" Margin="255,219,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

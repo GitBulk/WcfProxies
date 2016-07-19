@@ -45,6 +45,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -103,6 +104,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WcfProxies.Contracts\WcfProxies.Contracts.csproj">
+      <Project>{e670f3fd-c8c0-4704-beac-507f5e620f36}</Project>
+      <Name>WcfProxies.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WcfProxies.Data\WcfProxies.Data.csproj">
+      <Project>{cb582ef5-288f-47f0-bc46-6dd32f04157c}</Project>
+      <Name>WcfProxies.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WcfProxies.Services\WcfProxies.Services.csproj">
+      <Project>{b9ca487e-50e9-4653-bb03-a13c8dea11f7}</Project>
+      <Name>WcfProxies.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
